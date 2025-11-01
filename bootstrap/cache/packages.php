@@ -48,6 +48,13 @@
       0 => 'Termwind\\Laravel\\TermwindServiceProvider',
     ),
   ),
+  'phpsa/laravel-postman' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'Phpsa\\LaravelPostman\\ServiceProvider',
+    ),
+  ),
   'tymon/jwt-auth' => 
   array (
     'aliases' => 

@@ -11534,3 +11534,20 @@ Did you mean one of these?
 #45 C:\\Users\\joaox\\OneDrive\\Área de Trabalho\\projeto_alfa\\API\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(23): require_once('C:\\\\Users\\\\joaox\\\\...')
 #46 {main}
 "} 
+[2025-10-31 23:44:40] local.ERROR: Command "postman:generate" is not defined.
+
+Did you mean one of these?
+    key:generate
+    postman:export {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"postman:generate\" is not defined.
+
+Did you mean one of these?
+    key:generate
+    postman:export at C:\\Users\\gabri\\Documents\\Projeto da amostra de cursos\\API\\vendor\\symfony\\console\\Application.php:702)
+[stacktrace]
+#0 C:\\Users\\gabri\\Documents\\Projeto da amostra de cursos\\API\\vendor\\symfony\\console\\Application.php(258): Symfony\\Component\\Console\\Application->find('postman:generat...')
+#1 C:\\Users\\gabri\\Documents\\Projeto da amostra de cursos\\API\\vendor\\symfony\\console\\Application.php(167): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#2 C:\\Users\\gabri\\Documents\\Projeto da amostra de cursos\\API\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(197): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 C:\\Users\\gabri\\Documents\\Projeto da amostra de cursos\\API\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1205): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 C:\\Users\\gabri\\Documents\\Projeto da amostra de cursos\\API\\artisan(13): Illuminate\\Foundation\\Application->handleCommand(Object(Symfony\\Component\\Console\\Input\\ArgvInput))
+#5 {main}
+"} 
